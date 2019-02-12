@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+    <HorizontalScrollView android:layout_width="match_parent"
+                          android:layout_height="0dp"
+                          android:layout_weight="0.1"
+    >
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="horizontal"
+                      android:layout_height="match_parent">
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:id="@+id/home"
+            />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product"
+                    android:id="@+id/product"
+
+            />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shipping"
+                    android:id="@+id/shipping"
+
+            />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Offers"
+                    android:id="@+id/offers"
+
+            />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Categories"
+                    android:id="@+id/categories"
+
+            />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BestSellers"
+                    android:id="@+id/bestsellers"
+
+            />
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cart"
+                    android:id="@+id/cart"
+
+            />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_weight="0.8"
+                 android:id="@+id/frame1"
+                 android:layout_height="0dp"></FrameLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="Copyrights to--Srikanth"
+            />
+
+</LinearLayout>
